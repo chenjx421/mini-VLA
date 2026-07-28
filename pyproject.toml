@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "embodied-vla-rl"
+version = "0.1.0"
+description = "A CPU-reproducible MuJoCo lab for imitation learning, reinforcement learning, and tiny VLA policies."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "chenjx421"}]
+dependencies = [
+  "gymnasium>=1.0,<2",
+  "imageio>=2.34",
+  "matplotlib>=3.8",
+  "mujoco>=3.1.6,<4",
+  "numpy>=1.26,<3",
+  "Pillow>=10",
+  "PyYAML>=6.0",
+  "torch>=2.3",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+rl = ["stable-baselines3>=2.4,<3", "tensorboard>=2.16"]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[project.scripts]
+evla-check-env = "embodied_vla.cli.check_env:main"
+evla-expert-demo = "embodied_vla.cli.expert_demo:main"
+evla-benchmark-expert = "embodied_vla.cli.benchmark_expert:main"
+evla-train-ppo = "embodied_vla.cli.train_ppo:main"
+evla-collect = "embodied_vla.cli.collect_dataset:main"
+evla-collect-dagger = "embodied_vla.cli.collect_dagger:main"
+evla-train-vla = "embodied_vla.cli.train_vla:main"
+evla-eval-vla = "embodied_vla.cli.eval_vla:main"
+evla-eval-vla-hybrid = "embodied_vla.cli.eval_hybrid_vla:main"
+evla-eval-vla-offline = "embodied_vla.cli.eval_vla_offline:main"
+evla-fit-grounding-calibration = "embodied_vla.cli.fit_grounding_calibration:main"
+evla-eval-language = "embodied_vla.cli.eval_language:main"
+evla-audit-dataset = "embodied_vla.cli.audit_dataset:main"
+evla-make-report = "embodied_vla.cli.make_report_assets:main"
+evla-summarize-ppo = "embodied_vla.cli.summarize_ppo:main"
+
+[tool.setuptools.packages.find]
+include = ["embodied_vla*"]
+
+[tool.setuptools.package-data]
+embodied_vla = [
+  "assets/slam/*.xml",
+  "assets/so_arm100/*.xml",
+  "assets/so_arm100/*.md",
+  "assets/so_arm100/assets/*.stl",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = [
+  "ros2_ws/build",
+  "ros2_ws/install",
+  "ros2_ws/log",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

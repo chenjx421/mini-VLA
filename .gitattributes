@@ -1,0 +1,26 @@
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+Dockerfile text eol=lf
+*.Dockerfile text eol=lf
+*.cfg text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+resource/* text eol=lf
+
+*.ckpt binary
+*.gif binary
+*.npz binary
+*.png binary
+*.pt binary
+*.pth binary
+*.stl binary

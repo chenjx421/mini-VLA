@@ -1,0 +1,17 @@
+services:
+  slam:
+    build:
+      context: .
+      dockerfile: docker/ros2-jazzy.Dockerfile
+    environment:
+      MUJOCO_GL: egl
+    command: ["ros2", "launch", "embodied_vla_ros", "mobile_slam.launch.py"]
+
+  arm:
+    build:
+      context: .
+      dockerfile: docker/ros2-jazzy.Dockerfile
+    environment:
+      MUJOCO_GL: egl
+    command: ["ros2", "launch", "embodied_vla_ros", "arm_bridge.launch.py"]
+    profiles: ["arm"]

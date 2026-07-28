@@ -1,0 +1,93 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "six_joint_names": true,
+    "six_joint_positions": true,
+    "finite_joint_positions": true,
+    "rgb8_encoding": true,
+    "depth_32fc1_encoding": true,
+    "matching_image_shape": true,
+    "finite_positive_depth": true,
+    "positive_camera_focal_length": true,
+    "nonempty_task": true,
+    "valid_task_metadata": true,
+    "camera_tf_present": true
+  },
+  "rgb_shape": [
+    128,
+    128,
+    3
+  ],
+  "depth_shape": [
+    128,
+    128
+  ],
+  "depth_min": 0.5291538238525391,
+  "depth_max": 36.96697998046875,
+  "task": "grasp the red block and put it into the right bin",
+  "metadata": {
+    "target_color": "red",
+    "goal_side": "right",
+    "success": false,
+    "has_lifted": false
+  },
+  "joint_names": [
+    "Rotation",
+    "Pitch",
+    "Elbow",
+    "Wrist_Pitch",
+    "Wrist_Roll",
+    "Jaw"
+  ],
+  "tf_frame_count": 12,
+  "tf_frames": [
+    [
+      "Base",
+      "Rotation_Pitch"
+    ],
+    [
+      "Fixed_Jaw",
+      "Moving_Jaw"
+    ],
+    [
+      "Fixed_Jaw",
+      "grasp_anchor"
+    ],
+    [
+      "Lower_Arm",
+      "Wrist_Pitch_Roll"
+    ],
+    [
+      "Rotation_Pitch",
+      "Upper_Arm"
+    ],
+    [
+      "Upper_Arm",
+      "Lower_Arm"
+    ],
+    [
+      "Wrist_Pitch_Roll",
+      "Fixed_Jaw"
+    ],
+    [
+      "world",
+      "Base"
+    ],
+    [
+      "world",
+      "blue_cube"
+    ],
+    [
+      "world",
+      "camera_color_optical_frame"
+    ],
+    [
+      "world",
+      "green_cube"
+    ],
+    [
+      "world",
+      "red_cube"
+    ]
+  ]
+}

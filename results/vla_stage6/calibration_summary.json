@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "checkpoint": "D:\\GIT\\EmbodiedVLA-RL\\outputs\\tiny_vla_highres_stage6_seed24\\checkpoints\\last.pt",
+  "checkpoint_sha256": "47bef6584e39d01e613d98b7350296be015a78b2360443d261e2a661ae9f4476",
+  "dataset": "D:\\GIT\\EmbodiedVLA-RL\\datasets\\so_arm_pick_place_v2_120_dr",
+  "dataset_fingerprint_sha256": "42c36938e5157cf9e188413e5d4cb76cb85b0f551752853a8e8d18a7c77914b3",
+  "fit_scope": {
+    "parameter_fit_split": "train",
+    "model_selection_split": "validation",
+    "target_phases": [
+      "approach",
+      "descend_grasp",
+      "close_gripper"
+    ],
+    "evaluation_scene_labels_used": false,
+    "language_features": [
+      "target color",
+      "goal side"
+    ]
+  },
+  "transforms": {
+    "target": {
+      "kind": "linear_predicted_pixel_to_corrected_pixel",
+      "enabled": true,
+      "features": [
+        "bias",
+        "u",
+        "v",
+        "is_green",
+        "is_blue",
+        "is_right"
+      ],
+      "matrix": [
+        [
+          0.06124627856550113,
+          0.0755465149302518
+        ],
+        [
+          0.9197208553341626,
+          -0.010695013176151699
+        ],
+        [
+          -0.039032189246868715,
+          0.8763021045116252
+        ],
+        [
+          -0.007118908486267104,
+          0.0015982607044429224
+        ],
+        [
+          -0.004552673109290091,
+          -0.0020620806492166674
+        ],
+        [
+          -0.008441849932087835,
+          -0.0023604711050295483
+        ]
+      ]
+    },
+    "goal": {
+      "kind": "linear_predicted_pixel_to_corrected_pixel",
+      "enabled": true,
+      "features": [
+        "bias",
+        "u",
+        "v",
+        "is_right"
+      ],
+      "matrix": [
+        [
+          0.3255195012584073,
+          0.6646803615996274
+        ],
+        [
+          0.0023226434578125193,
+          7.319072890914904e-11
+        ],
+        [
+          0.001326800230185902,
+          1.8721073954658698e-10
+        ],
+        [
+          0.3448834959545343,
+          -2.4768484683985686e-11
+        ]
+      ]
+    }
+  },
+  "validation": {
+    "target": {
+      "train_samples": 7125,
+      "validation_samples": 1258,
+      "candidates": {
+        "identity": {
+          "mean_pixel_l2": 0.03455861611729649,
+          "median_pixel_l2": 0.029545048127305296,
+          "mean_world_xy_error_m": 0.027273157611489296,
+          "median_world_xy_error_m": 0.02439871057868004,
+          "p90_world_xy_error_m": 0.047204263508319855,
+          "fraction_within_13mm": 0.1820349761526232
+        },
+        "global_affine": {
+          "mean_pixel_l2": 0.03118135254426856,
+          "median_pixel_l2": 0.028946776341316743,
+          "mean_world_xy_error_m": 0.02489173784852028,
+          "median_world_xy_error_m": 0.021770253777503967,
+          "p90_world_xy_error_m": 0.041011933237314224,
+          "fraction_within_13mm": 0.21065182829888712
+        },
+        "language_conditioned_affine": {
+          "mean_pixel_l2": 0.03046867144763323,
+          "median_pixel_l2": 0.02787045739621786,
+          "mean_world_xy_error_m": 0.024294652044773102,
+          "median_world_xy_error_m": 0.02170150727033615,
+          "p90_world_xy_error_m": 0.04066569358110428,
+          "fraction_within_13mm": 0.2329093799682035
+        }
+      },
+      "selected": "language_conditioned_affine"
+    },
+    "goal": {
+      "train_samples": 16195,
+      "validation_samples": 2777,
+      "candidates": {
+        "identity": {
+          "mean_pixel_l2": 0.004340958796027418,
+          "median_pixel_l2": 0.004307658545293225,
+          "mean_world_xy_error_m": 0.0029167982283979654,
+          "median_world_xy_error_m": 0.0029510974418371916,
+          "p90_world_xy_error_m": 0.004174115601927042,
+          "fraction_within_13mm": 0.9992797983435362
+        },
+        "global_affine": {
+          "mean_pixel_l2": 0.0015898726140114337,
+          "median_pixel_l2": 0.0013450575033153167,
+          "mean_world_xy_error_m": 0.001011860673315823,
+          "median_world_xy_error_m": 0.0008560493588447571,
+          "p90_world_xy_error_m": 0.0021107837092131376,
+          "fraction_within_13mm": 0.9996398991717681
+        },
+        "language_conditioned_affine": {
+          "mean_pixel_l2": 3.6246208055768103e-06,
+          "median_pixel_l2": 3.066486750025188e-06,
+          "mean_world_xy_error_m": 2.3055026758811437e-06,
+          "median_world_xy_error_m": 1.952052116394043e-06,
+          "p90_world_xy_error_m": 4.813075065612793e-06,
+          "fraction_within_13mm": 1.0
+        }
+      },
+      "selected": "language_conditioned_affine"
+    }
+  },
+  "fit": {
+    "batch_size": 128,
+    "num_workers": 0,
+    "torch_threads": 1,
+    "ridge": 0.001
+  },
+  "elapsed_seconds": 111.6437156000029,
+  "runtime": {
+    "recorded_at_utc": "2026-07-28T12:40:22.830115+00:00",
+    "command": [
+      "embodied_vla\\cli\\fit_grounding_calibration.py",
+      "--checkpoint",
+      "outputs\\tiny_vla_highres_stage6_seed24\\checkpoints\\last.pt",
+      "--dataset",
+      "datasets\\so_arm_pick_place_v2_120_dr",
+      "--output-dir",
+      "outputs\\grounding_calibration_stage6_epoch8_train_only",
+      "--batch-size",
+      "128",
+      "--torch-threads",
+      "1",
+      "--ridge",
+      "0.001"
+    ],
+    "working_directory": "D:\\GIT\\EmbodiedVLA-RL",
+    "git_commit": null,
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "platform": {
+      "system": "Windows",
+      "release": "11",
+      "version": "10.0.26200",
+      "machine": "AMD64"
+    },
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 12,
+    "packages": {
+      "numpy": "2.5.0",
+      "torch": "2.12.1+cpu",
+      "mujoco": "3.10.0"
+    },
+    "torch": {
+      "device": "cpu",
+      "intraop_threads": 1,
+      "interop_threads": 8,
+      "cuda_available": false
+    }
+  }
+}

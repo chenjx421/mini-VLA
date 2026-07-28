@@ -1,0 +1,70 @@
+<mujoco model="mobile_slam_warehouse">
+  <compiler angle="radian"/>
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast"/>
+
+  <visual>
+    <global azimuth="90" elevation="-90" offwidth="512" offheight="512"/>
+    <quality shadowsize="2048"/>
+    <map znear="0.01" zfar="20"/>
+  </visual>
+
+  <asset>
+    <texture name="floor_tex" type="2d" builtin="checker"
+      rgb1="0.70 0.72 0.74" rgb2="0.58 0.61 0.64" width="256" height="256"/>
+    <material name="floor_mat" texture="floor_tex" texrepeat="12 12" reflectance="0.05"/>
+    <material name="wall_mat" rgba="0.83 0.84 0.82 1"/>
+    <material name="obstacle_mat" rgba="0.24 0.48 0.61 1"/>
+    <material name="robot_mat" rgba="0.90 0.28 0.14 1"/>
+  </asset>
+
+  <default>
+    <geom friction="0.9 0.02 0.002" condim="4"/>
+    <joint damping="2"/>
+  </default>
+
+  <worldbody>
+    <light pos="0 0 6" dir="0 0 -1" diffuse="0.9 0.9 0.9"/>
+    <geom name="floor" type="plane" size="3.2 3.2 0.1" material="floor_mat"/>
+
+    <geom name="wall_north" type="box" pos="0 3.0 0.35"
+      size="3.1 0.10 0.35" material="wall_mat"/>
+    <geom name="wall_south" type="box" pos="0 -3.0 0.35"
+      size="3.1 0.10 0.35" material="wall_mat"/>
+    <geom name="wall_east" type="box" pos="3.0 0 0.35"
+      size="0.10 3.1 0.35" material="wall_mat"/>
+    <geom name="wall_west" type="box" pos="-3.0 0 0.35"
+      size="0.10 3.1 0.35" material="wall_mat"/>
+
+    <geom name="shelf_west" type="box" pos="-1.15 0.25 0.30"
+      size="0.18 1.25 0.30" material="obstacle_mat"/>
+    <geom name="shelf_east" type="box" pos="1.15 -0.35 0.30"
+      size="0.18 1.15 0.30" material="obstacle_mat"/>
+    <geom name="island" type="box" pos="0 1.85 0.28"
+      size="0.65 0.22 0.28" material="obstacle_mat"/>
+    <geom name="column" type="cylinder" pos="0 -1.85 0.35"
+      size="0.32 0.35" material="obstacle_mat"/>
+
+    <camera name="overhead" pos="0 0 8" xyaxes="1 0 0 0 1 0"/>
+
+    <body name="mobile_base" pos="0 0 0.08">
+      <joint name="base_x" type="slide" axis="1 0 0" range="-2.75 2.75"/>
+      <joint name="base_y" type="slide" axis="0 1 0" range="-2.75 2.75"/>
+      <joint name="base_yaw" type="hinge" axis="0 0 1" limited="false"/>
+      <geom name="base_collision" type="cylinder" pos="0 0 0.08"
+        size="0.18 0.08" mass="4.0" material="robot_mat"/>
+      <geom name="heading_marker" type="box" pos="0.13 0 0.17"
+        size="0.08 0.025 0.02" mass="0.05" rgba="0.98 0.85 0.15 1"
+        contype="0" conaffinity="0"/>
+      <site name="lidar" pos="0 0 0.23" size="0.015" rgba="0.1 0.9 0.9 1"/>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <velocity name="x_velocity" joint="base_x" kv="55"
+      ctrlrange="-0.8 0.8" forcerange="-80 80"/>
+    <velocity name="y_velocity" joint="base_y" kv="55"
+      ctrlrange="-0.8 0.8" forcerange="-80 80"/>
+    <velocity name="yaw_velocity" joint="base_yaw" kv="22"
+      ctrlrange="-1.5 1.5" forcerange="-25 25"/>
+  </actuator>
+</mujoco>

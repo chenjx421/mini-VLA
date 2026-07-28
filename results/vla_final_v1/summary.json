@@ -1,0 +1,203 @@
+{
+  "checkpoint": "D:\\GIT\\EmbodiedVLA-RL\\outputs\\tiny_vla_geometry_aligned_stage5_seed23\\checkpoints\\best_initial_action.pt",
+  "episodes": 60,
+  "successes": 30,
+  "success_rate": 0.5,
+  "success_wilson_95": [
+    0.3773502424155577,
+    0.6226497575844423
+  ],
+  "task_success": {
+    "red->left": {
+      "episodes": 10,
+      "successes": 6,
+      "success_rate": 0.6
+    },
+    "red->right": {
+      "episodes": 10,
+      "successes": 6,
+      "success_rate": 0.6
+    },
+    "green->left": {
+      "episodes": 10,
+      "successes": 5,
+      "success_rate": 0.5
+    },
+    "green->right": {
+      "episodes": 10,
+      "successes": 4,
+      "success_rate": 0.4
+    },
+    "blue->left": {
+      "episodes": 10,
+      "successes": 3,
+      "success_rate": 0.3
+    },
+    "blue->right": {
+      "episodes": 10,
+      "successes": 6,
+      "success_rate": 0.6
+    }
+  },
+  "mean_return": 9.118913980895451,
+  "mean_length": 330.8333333333333,
+  "mean_raw_pixel_grounding_l2": 0.025396333918026613,
+  "mean_calibrated_pixel_grounding_l2": 0.023483099175499202,
+  "mean_pregrasp_target_world_xy_error_m": 0.0350153725333675,
+  "mean_descend_close_target_world_xy_error_m": 0.03165637296005318,
+  "mean_goal_world_xy_error_m": 0.0008996137711090623,
+  "episodes_with_bilateral_contact": 32,
+  "episodes_ever_grasped": 32,
+  "episodes_ever_lifted": 32,
+  "inference_latency_ms": {
+    "mean": 10.831334065485642,
+    "p50": 9.205799999108422,
+    "p95": 20.266009997612855,
+    "samples": 19850
+  },
+  "elapsed_seconds": 702.3786888000031,
+  "model": {
+    "image_size": 64,
+    "patch_size": 8,
+    "proprio_dim": 15,
+    "action_dim": 5,
+    "action_horizon": 8,
+    "language_length": 16,
+    "vocabulary_size": 22,
+    "phase_count": 7,
+    "model_dim": 128,
+    "attention_heads": 4,
+    "encoder_layers": 3,
+    "decoder_layers": 2,
+    "feedforward_dim": 384,
+    "dropout": 0.1,
+    "action_head": "deterministic",
+    "flow_matching_steps": 8,
+    "grounding_action_conditioning": true,
+    "grounding_coordinate_refinement": true,
+    "world_grounding": true,
+    "world_grounding_action_conditioning": true,
+    "phase_action_conditioning": true
+  },
+  "evaluation": {
+    "episodes": 60,
+    "seed": 50000,
+    "video_episodes": 3,
+    "max_episode_steps": 400,
+    "domain_randomization": false,
+    "balanced_tasks": true,
+    "torch_threads": 1,
+    "smoothing_alpha": 0.35,
+    "recovery_search_radius_m": 0.018,
+    "close_retry_steps": 18
+  },
+  "grounding_calibration": {
+    "path": "D:\\GIT\\EmbodiedVLA-RL\\outputs\\grounding_calibration_stage5_train_only\\calibration.json",
+    "fit_scope": {
+      "parameter_fit_split": "train",
+      "model_selection_split": "validation",
+      "target_phases": [
+        "approach",
+        "descend_grasp",
+        "close_gripper"
+      ],
+      "evaluation_scene_labels_used": false
+    },
+    "transforms": {
+      "target": {
+        "kind": "affine_predicted_pixel_to_corrected_pixel",
+        "enabled": true,
+        "matrix": [
+          [
+            0.07478912984418722,
+            0.10410587565171563
+          ],
+          [
+            0.8945560707902128,
+            -0.007200241247638986
+          ],
+          [
+            -0.0581080054920198,
+            0.8191188372155817
+          ]
+        ]
+      },
+      "goal": {
+        "kind": "affine_predicted_pixel_to_corrected_pixel",
+        "enabled": true,
+        "matrix": [
+          [
+            -0.3740888641125068,
+            0.664680361841514
+          ],
+          [
+            1.004100532004409,
+            -2.12599057023437e-13
+          ],
+          [
+            0.5617941193115272,
+            -1.4126747462172507e-10
+          ]
+        ]
+      }
+    }
+  },
+  "policy_boundary": {
+    "learned": "language-conditioned target/goal pixel grounding",
+    "calibrated": "train-split affine pixel correction and camera ray-plane unprojection",
+    "engineered": "phase state machine, Cartesian visual servo, and contact-failure local search",
+    "action_uses_privileged_target_or_goal_coordinates": false,
+    "privileged_coordinates_used_for_metrics_only": true,
+    "evaluation_scene_labels_used_for_calibration": false
+  },
+  "runtime": {
+    "recorded_at_utc": "2026-07-28T11:53:53.859873+00:00",
+    "command": [
+      "embodied_vla\\cli\\eval_hybrid_vla.py",
+      "--checkpoint",
+      "outputs\\tiny_vla_geometry_aligned_stage5_seed23\\checkpoints\\best_initial_action.pt",
+      "--grounding-calibration",
+      "outputs\\grounding_calibration_stage5_train_only\\calibration.json",
+      "--output-dir",
+      "outputs\\hybrid_vla_final_test_seed50000_n60",
+      "--episodes",
+      "60",
+      "--seed",
+      "50000",
+      "--video-episodes",
+      "3",
+      "--max-episode-steps",
+      "400",
+      "--torch-threads",
+      "1",
+      "--smoothing-alpha",
+      "0.35",
+      "--recovery-search-radius-m",
+      "0.018",
+      "--close-retry-steps",
+      "18"
+    ],
+    "working_directory": "D:\\GIT\\EmbodiedVLA-RL",
+    "git_commit": null,
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "platform": {
+      "system": "Windows",
+      "release": "11",
+      "version": "10.0.26200",
+      "machine": "AMD64"
+    },
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 12,
+    "packages": {
+      "numpy": "2.5.0",
+      "torch": "2.12.1+cpu",
+      "mujoco": "3.10.0"
+    },
+    "torch": {
+      "device": "cpu",
+      "intraop_threads": 1,
+      "interop_threads": 8,
+      "cuda_available": false
+    }
+  }
+}

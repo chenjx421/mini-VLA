@@ -1,0 +1,1147 @@
+{
+  "schema_version": 1,
+  "artifact_count": 228,
+  "total_bytes": 75166641,
+  "artifacts": [
+    {
+      "path": "checkpoints/tiny_vla_stage5_best_initial.pt",
+      "bytes": 14691143,
+      "sha256": "57d00e097dfe242ed7950a5f2dddd8887d1de6aa5ffa9d3a63518271ff7ad4c2"
+    },
+    {
+      "path": "checkpoints/tiny_vla_stage6_calibration.json",
+      "bytes": 6095,
+      "sha256": "644ba4702ffb3653e463cf59d999cf3dddb07e84b97a31eeba69c3ebc756be94"
+    },
+    {
+      "path": "checkpoints/tiny_vla_stage6_highres.pt",
+      "bytes": 6787812,
+      "sha256": "47bef6584e39d01e613d98b7350296be015a78b2360443d261e2a661ae9f4476"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000000.npz",
+      "bytes": 136052,
+      "sha256": "3b0ff99bb1111b6e09012abc0a102b3a98c05cb32b3ed9d27165cd88757eb8f0"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000001.npz",
+      "bytes": 138919,
+      "sha256": "97feb9faddbbbd6a8f7183219a26bff5ececab2a5a6c7e00d96bed7693f251f6"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000002.npz",
+      "bytes": 173346,
+      "sha256": "746dffd781723e6e8f6b4c1243f575bd80e2cd45ea5faf5f4cd8f2c862fb7e36"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000003.npz",
+      "bytes": 156182,
+      "sha256": "59a2687e748adcb16f460e2ff2e38525bfea7c347da6784ac2e41d01402f0fa8"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000004.npz",
+      "bytes": 182112,
+      "sha256": "d71d2876d371eca168874f25cc2b5e4cb5b0bd986bd17db56a12a7faf4a05c98"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000005.npz",
+      "bytes": 110583,
+      "sha256": "54aa561d32d4dc07d70a529b68bce436427d5074df933a49c0044add2bd7d92d"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000006.npz",
+      "bytes": 231931,
+      "sha256": "4b66f14cabf2684d9ce89f753a81846fe9ed7cf8c9b87448dcf0a484dbf15a6b"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000007.npz",
+      "bytes": 110745,
+      "sha256": "10c27105c768077046bebf6c82810dbc0a8902a20c9b2d24c36b580b694e8501"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000008.npz",
+      "bytes": 281419,
+      "sha256": "d32f8dff65e0c460162b08f32cf89d687aaf472282edbdf6a3cdbc87e2ea5395"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000009.npz",
+      "bytes": 116345,
+      "sha256": "1e7479fb677756faf8d4ba4f576b480f7fcf768fbb3ecb0301435886c3623891"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000010.npz",
+      "bytes": 211582,
+      "sha256": "cb2d0f47c374bf40a6cc83755e2e4823ce315b2041081e49ccddbcd924aa37fb"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000011.npz",
+      "bytes": 197564,
+      "sha256": "bb227b895d98e72fbf9f0f2052329ba47400730fd22272e1425ecf26ca8ab1dc"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000012.npz",
+      "bytes": 106948,
+      "sha256": "d502875e25cefcf3572099c16b02f6772939beec24f81a6f23950fd659d5850a"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000013.npz",
+      "bytes": 164536,
+      "sha256": "a2a8c02b78280ca3bc9821e2d6b6aa54ae29d302596c841c1edc9073cba3f058"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000014.npz",
+      "bytes": 140765,
+      "sha256": "bdaf2d1b7b220bc89a1656662fb2b064f48ad3c76dd913b520a05af4ccff068e"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000015.npz",
+      "bytes": 147759,
+      "sha256": "20810cc480f3ea3b6dd3b388e292a93116848dd8d9c33d47931f52e82d0db199"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000016.npz",
+      "bytes": 157796,
+      "sha256": "47b9ea5b0ac834377ca2c1fc17300f2cafdd005355ed659e681e229c07224d99"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000017.npz",
+      "bytes": 232724,
+      "sha256": "e7aef3fbbd697851c85fbab7ef70ad3bc1039b433e0556b73bab765a8d7e44f9"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000018.npz",
+      "bytes": 137569,
+      "sha256": "968c9ce401579fe092ce5c6a8305c6ebcf5bf0d10eaf426091d03473f8050869"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000019.npz",
+      "bytes": 181973,
+      "sha256": "5650a3ea783ec3cb960cebcd62324128c9b45079d68efee0880bf37c37a196bb"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000020.npz",
+      "bytes": 109879,
+      "sha256": "834d9f0038828775c35754f0d4e3a1dba09fda4151a51b8ecdbbc35912e65bfe"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000021.npz",
+      "bytes": 150935,
+      "sha256": "0f0f445b90a0bf68d0724b98ff4cb2adf6acd0fdf16905704423cca6e8565fe0"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000022.npz",
+      "bytes": 110833,
+      "sha256": "c4f2d88b4f3ec522a01904c69c98bf3083bc71f1176848c86207546d52d986a6"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000023.npz",
+      "bytes": 127021,
+      "sha256": "65c53a1c847819ff8f52ad6150f6fbd5d4098d53028c08e23789da09f2f00c69"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000024.npz",
+      "bytes": 121374,
+      "sha256": "77a099ddc9dc94c89685374b3a858dd95c111d87d1cc6400406f203117768a80"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000025.npz",
+      "bytes": 157985,
+      "sha256": "d48239146e3e79904c7766a64d76a0e8fc0a42517a2876c6bae547547a7181f3"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000026.npz",
+      "bytes": 178287,
+      "sha256": "1597ffb45709f16eacfe4a64620ec27b98b86c6caedb9b38eae7eed8d610d618"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000027.npz",
+      "bytes": 115190,
+      "sha256": "8e02544aa9b14ed755d35372655f25a46b6620923617911d5caf50302d509047"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000028.npz",
+      "bytes": 129322,
+      "sha256": "74a7ef2efde2c2df56d4abe9c04f49fd0cb24c7bc9267cd81ada9a950f0ec31f"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000029.npz",
+      "bytes": 165467,
+      "sha256": "222d5df1e9fad1b7207438e523ad0071c4e9c6fd71324436163e4b5983d0f19b"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000030.npz",
+      "bytes": 152348,
+      "sha256": "c873a4552ec9de322fd9308e4bab2d1e0f255bfed3c1b4d97383c12ba2c5576b"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000031.npz",
+      "bytes": 115930,
+      "sha256": "3b0fa3cd1bc8bb3cd3876510b734a1391a8d7236ea69a52e7329b102dfc26c56"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000032.npz",
+      "bytes": 193343,
+      "sha256": "2ea49de057eb12f3e1761c29463719366ba72f14c78d74a282d3e11e2431f639"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000033.npz",
+      "bytes": 231773,
+      "sha256": "f80e584d72794be3d133ec4dc310984824028aa79af4860e81ede9ad0cee3b66"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000034.npz",
+      "bytes": 142264,
+      "sha256": "96d76724d7c76ce96ebeb665c427d242f9c96aa0f85f9a2709fbcea989a0cc3d"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000035.npz",
+      "bytes": 151524,
+      "sha256": "e913d8331759b769d2d9c12bb427ebd182a98ba37be1aefc84fbd38c2a6fd065"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000036.npz",
+      "bytes": 137657,
+      "sha256": "ddbe816045f91f3f06b3f3421c4c51ceec898e91b5d66d459571f3f0697fb28e"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000037.npz",
+      "bytes": 127343,
+      "sha256": "ab6cfce579cf41e9e4ed8f8b4733267a4f47f2cbe419f684a09dd789755cf262"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000038.npz",
+      "bytes": 258559,
+      "sha256": "c9a54feb44fd3f8d14384a3eefdbeb827ecb4c3fe0812bce4432d4ba6ec80bca"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000039.npz",
+      "bytes": 202819,
+      "sha256": "d00bb2b758f240e06b91173419b667ca4f066b6da1326c899330bc151338d707"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000040.npz",
+      "bytes": 155307,
+      "sha256": "26a234d9dc7325e0c83a09dd7189d97715e053cdaf9ed71b6a27d218127a848f"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000041.npz",
+      "bytes": 122606,
+      "sha256": "847df83c721c67287240ae61ad79ddb4e016db74922f1508ce67d261f7617262"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000042.npz",
+      "bytes": 130254,
+      "sha256": "e17ea212102a18732f38ef8556f67aaa56dc16716600b921e5bc250468850c74"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000043.npz",
+      "bytes": 159430,
+      "sha256": "1baf3720c2c1327a2843a25205912c6466e6dfafff1f36cb1c745dcd697c48e9"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000044.npz",
+      "bytes": 152022,
+      "sha256": "014f9724512c05a8414c73bebc17ca5e5282f7e96e272af609da4a02006ed220"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000045.npz",
+      "bytes": 112200,
+      "sha256": "64e527b82718d94535c3bedda9aef47a51471223a71225e46a4952a9f79d7b1e"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000046.npz",
+      "bytes": 164781,
+      "sha256": "3c5f41e75b28fe23a4f354f468614f11cb3f20cd99cefe6760efa5682b589a3d"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000047.npz",
+      "bytes": 181043,
+      "sha256": "321bc4f15a69f1c63c4a2c2bb4c8dfbe3f58db8824db40795c82881eb6134c6a"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000048.npz",
+      "bytes": 144577,
+      "sha256": "f59f530013e3ae7081e5127accff2198ab41f3cd3ba35104a7f674750ba9f6ef"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000049.npz",
+      "bytes": 134648,
+      "sha256": "cbdca7c5933ee88e6760573cdf77a5aab117e3a7297ac37d248f33c50b1fae84"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000050.npz",
+      "bytes": 301397,
+      "sha256": "21d6f12fbeaf5d26cf887c2aa0b9c2c7f35d70fb58a27cc66a3a7d8adbbb22ea"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000051.npz",
+      "bytes": 163711,
+      "sha256": "5703fc3db8c80555aec9b07682e4d5280f463565ef667e4e93ca0cb680fe990e"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000052.npz",
+      "bytes": 166742,
+      "sha256": "a9c678bb523d7ddb43aa405300834c0111741260b4c8651ea62188c4d64e724d"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000053.npz",
+      "bytes": 119955,
+      "sha256": "fef2ae25fc64569baeefeb0a356629e02cd9e1f09bf4c6bdf8674922530e66da"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000054.npz",
+      "bytes": 159433,
+      "sha256": "e437ae7a8cb58fda3007e9c24bd7a38b2077a95f328330261d4f1a889ab68cae"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000055.npz",
+      "bytes": 162585,
+      "sha256": "c64374751eb4c8775c5ba4e07ad83ca532e61a057f7a233ec50b40ba9d47a031"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000056.npz",
+      "bytes": 120377,
+      "sha256": "a33d2dbdfdbdced119ddc340ed49d295faa6f1e5647ae39f4ad1a000311cbc7a"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000057.npz",
+      "bytes": 146319,
+      "sha256": "9a97fecf8227e028ef938bd154cf63a8dca021f45fa0d1bf4fdade9fd6a149f5"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000058.npz",
+      "bytes": 143428,
+      "sha256": "bb0ad76ce7144aa8b521d11a2846cca60171fdaf476d8f62f459c287d901f735"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000059.npz",
+      "bytes": 128589,
+      "sha256": "955e872530e06bb2bf89d4201281a2d1663bcf5b7a3716fac4001c8a4db3c13a"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000060.npz",
+      "bytes": 139423,
+      "sha256": "b6c4dfc7755fd528a203de22ca586af2cee71f997757b94c199df47e8282189c"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000061.npz",
+      "bytes": 154288,
+      "sha256": "887d39b2388a5ae6dba2113e0bbdc4c20d69833ae4416e04381598fda95d90f4"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000062.npz",
+      "bytes": 142621,
+      "sha256": "839edf0fee7a2296e3889f12399effa6f0d983adee17e12e0d9337ee071c8173"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000063.npz",
+      "bytes": 148245,
+      "sha256": "4b454e6349332787420261443592c14b190639844ac68e8f637038e9362071a8"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000064.npz",
+      "bytes": 131366,
+      "sha256": "4f4e08ded4647a93748af2adf6054f83fed90aa75f7b753e6feb04ab35004df7"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000065.npz",
+      "bytes": 197397,
+      "sha256": "0aec839d212a60ee6af34a464c4ba1b9fd1ab9f364f019951ce3bb32c05929be"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000066.npz",
+      "bytes": 132401,
+      "sha256": "ffc9d31d839a50072a4471c7ae0eee60c937e0fbbec1ccde024aaf4e38d3a385"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000067.npz",
+      "bytes": 146809,
+      "sha256": "3ae18c10bb8d200221771f14eadeb719ba9ab59cfd7dfc878ff0f4f579d666b9"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000068.npz",
+      "bytes": 105413,
+      "sha256": "ee334a57a90eba0df036a4011acc5c3a83f441e53c3c25278ea85a1facad8e88"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000069.npz",
+      "bytes": 162317,
+      "sha256": "3f534121292be0903b3d29d46171c27790c631e7b65afd9c95977ca7b5b449dc"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000070.npz",
+      "bytes": 109949,
+      "sha256": "9a404f241d1010d694e955b2d1e7c01adc1a1c5c0bb42f26712106838373ae3a"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000071.npz",
+      "bytes": 133160,
+      "sha256": "9ae9864a78ce4550f8e25b2110ffd1c16d0e729f85968e52e223e2328de8c3ff"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000072.npz",
+      "bytes": 136298,
+      "sha256": "11b55689883be743de2484e4d803e96121a28db8f1828ef2106491a214bc5e43"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000073.npz",
+      "bytes": 178670,
+      "sha256": "1c7b329f6536c0d93a077ea20f697f2193d4778dc2be969734de223321e4c506"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000074.npz",
+      "bytes": 108406,
+      "sha256": "372d9b2adc52f6471767e9c31c015d74f71add3042b0a98db0edcf1b4908065e"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000075.npz",
+      "bytes": 157163,
+      "sha256": "fcc3f4836eb6d39d904a079811544f47c194dcec48b163a9ddc2242510a66305"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000076.npz",
+      "bytes": 175535,
+      "sha256": "b3a8815612c45a8207eea714c9a131f1ddc43a0d3f1ff5779aeef9668087c482"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000077.npz",
+      "bytes": 163595,
+      "sha256": "9b713e47b2123c26a225d3213f9c204296bc7c59d0c0e958ac9be280145530d6"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000078.npz",
+      "bytes": 275012,
+      "sha256": "911c5b6d724afa412274013d461e51d7bd027b1ad2f51ebbd4db876343073481"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000079.npz",
+      "bytes": 138960,
+      "sha256": "4674cc24e1f08efc194dd7bf749186095930c405497699b61dd7589ad65cf73b"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000080.npz",
+      "bytes": 102902,
+      "sha256": "eafed590a9212f22e8f54d97b5a85c9bede1a1cd6b529dcebedc5424dfbbddcc"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000081.npz",
+      "bytes": 151191,
+      "sha256": "a01b1324dcf6194c9de682ab941e59546e1a4b95d018d73be3171e0acbc8dede"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000082.npz",
+      "bytes": 117068,
+      "sha256": "9bf59ffd820fd781cb9f2ed7e204f875beac5e90d310bebaadc0e6b1888f69f4"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000083.npz",
+      "bytes": 263959,
+      "sha256": "57527719f3af9348edd734e73cc5cfcdc2c99c58af52791b2c3b3ae6e7b19a64"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000084.npz",
+      "bytes": 149970,
+      "sha256": "d33143e20126ab0ebdec04b2b23454bc864422914cdae67cd7a2f893108caa4b"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000085.npz",
+      "bytes": 119881,
+      "sha256": "f0955285f6efc06d5db15b505e80a059cbeef32b2779dc97074977e814e77464"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000086.npz",
+      "bytes": 132046,
+      "sha256": "4eaccccd4e09a1e5cbab10ea6ed27cda76eb0dc961c4eecf15901cf2dd36081e"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000087.npz",
+      "bytes": 154941,
+      "sha256": "3b1fc3ee245b82e053d96a3f07f4925d28d953eda1be5b6154daa4fe870222e6"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000088.npz",
+      "bytes": 280544,
+      "sha256": "c87ebef67fc1560c0565e40f43441361495f92765a7ba6d61f286991bf7657c8"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000089.npz",
+      "bytes": 110070,
+      "sha256": "cf6dbfadd26f7aa6299e46d61f29367cabd42a1ac0a792f1d18b22e6a165ead6"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000090.npz",
+      "bytes": 105552,
+      "sha256": "34ef85a7894ed9c239af6c7ada6d95244141e9286da17b5235519e7556fa82f3"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000091.npz",
+      "bytes": 179011,
+      "sha256": "fb90b5537bd379ce5bafeb876e01d4fe2992ee6377831f87f3ac8baeb6d89478"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000092.npz",
+      "bytes": 153933,
+      "sha256": "5a61ca1f34bee4362b77ec6642f7069e5b7e2c5e2697918d81ce62bfe99d0fa9"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000093.npz",
+      "bytes": 134034,
+      "sha256": "4cce4ff310702c806444c515133814d77ba7ec87b185f65583bceba7d502abcd"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000094.npz",
+      "bytes": 129169,
+      "sha256": "8bfdd16026e2863a458e2d347780ea773e3108613822b870c0119078d82d6966"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000095.npz",
+      "bytes": 132616,
+      "sha256": "c30aba6ea91cbe0f45df58bdd04d236a3d3b0e7b4541c52b2f3b59e2d5e739a3"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000096.npz",
+      "bytes": 143216,
+      "sha256": "b7f08700d048b7bc4350b47473f8dd1565dcdfa515fc044e8f4370ea67d8c8fa"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000097.npz",
+      "bytes": 199230,
+      "sha256": "ae69df24fc1fb86f89f0baa6248ed1c557ddb5b50afc0d97374948a7701bad65"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000098.npz",
+      "bytes": 136174,
+      "sha256": "e8208ac2477961e0c567b96a61025621ab4c5fce9ae5cc31c65da566e944bc5e"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000099.npz",
+      "bytes": 153856,
+      "sha256": "2dbca631094611d0592e1b51d340486efb6bc5322f438e2d15b5357b61d4cdf8"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000100.npz",
+      "bytes": 128599,
+      "sha256": "d1f61590a60b969389bea76a7f980b862bf8efc5a1ca354742dfa66c9e30509d"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000101.npz",
+      "bytes": 125739,
+      "sha256": "22d419fd4175495f7decb8ff3010d9e53081cf57c4cad26f80d30f831d979559"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000102.npz",
+      "bytes": 105957,
+      "sha256": "e5f03c259cd7f91e23dca3f0dfc846552a1efa3f18803a2106b4bb788bca3631"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000103.npz",
+      "bytes": 156217,
+      "sha256": "0460418459253906c73ca68e741b438f7a374796e29c57156ebe5aeaa7c835c6"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000104.npz",
+      "bytes": 150745,
+      "sha256": "1d1005d65a1a9418cbad6351b3acada64f5e4ac5f39eef81aa95d004449b0f74"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000105.npz",
+      "bytes": 215256,
+      "sha256": "b6691ed5f77aa467f9134f6b76ba58b7e77cd165e6388678b4cf834c969a5ade"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000106.npz",
+      "bytes": 146383,
+      "sha256": "29d9d1b5b2bac19eafb99b3bc8f9157741cba8a0be0e5b7a4e2087b7ffc55b9b"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000107.npz",
+      "bytes": 210918,
+      "sha256": "2011d3b162ce23889545d06455feb5fa1fa16b63035387ac5a347a98525ab86e"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000108.npz",
+      "bytes": 191648,
+      "sha256": "13c70866a84d6d1e0ca5dd83f900deea7ee3579a28d97d72a048223b1ac73f97"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000109.npz",
+      "bytes": 114451,
+      "sha256": "a0090126d46daacf87693532581f3c746a29dacf89b7506ffd74d519d8712b35"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000110.npz",
+      "bytes": 117718,
+      "sha256": "ec95565d920381b7317db4fa8867ef1f715ccca3fcbfa307cc376199aa8e71b4"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000111.npz",
+      "bytes": 156183,
+      "sha256": "f98c6c55f40b4b4390c6c71eb5ad9dc3efad9cf039db2cd44067098188f7c68c"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000112.npz",
+      "bytes": 132714,
+      "sha256": "dc81d7e0c39c39d76b42715b5367ead89ded088f9bcaaa90cecd50f73e9f9b23"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000113.npz",
+      "bytes": 132435,
+      "sha256": "0e908595fe0be7dfb4f09bef6001d288e38f8f2affc8cfd74b7885a1a09fb4ca"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000114.npz",
+      "bytes": 193257,
+      "sha256": "d039615cb43c3fef92c95ffdff52c800ca6535240740a2ab353d2d2e61313895"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000115.npz",
+      "bytes": 113490,
+      "sha256": "41bb9dd21e954ffd64a08f7d58875648de5e4e18db066fbd9cb7000f74bbf4f1"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000116.npz",
+      "bytes": 205817,
+      "sha256": "956b61e05480a612a19543f968c4984f34d4d2798fa161f80849bc29fb8e1e0f"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000117.npz",
+      "bytes": 113136,
+      "sha256": "128ed4db5f4abb29b7428325072486360973efdc1e85a3dc2182a616d0e46e07"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000118.npz",
+      "bytes": 164187,
+      "sha256": "dabc36a10d5ab926ddf09cdfc211ae121a1453e80c74ae0b2a493da915df3fbf"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/episodes/episode_000119.npz",
+      "bytes": 142151,
+      "sha256": "bc721a404e719fb4c34385fc00a075504049e8b6368d9326416f86dbd5a31782"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/manifest.json",
+      "bytes": 34600,
+      "sha256": "cbfd6a0be99228e6fce64085639d5e23618ef1d17eafb2aaee1d04aa0109849f"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/README.md",
+      "bytes": 1000,
+      "sha256": "d8803388b1ad09395929f2fc35acecbf2eda4a7008e802157deae0e8dbb6c6cd"
+    },
+    {
+      "path": "datasets/so_arm_pick_place_v2_120_dr/statistics.json",
+      "bytes": 7714,
+      "sha256": "778eaecc1b6cb0413f4cd0bf9b5b6a2215e0aae67c4ff234afa3da10fdbdd137"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episode_000_preview.gif",
+      "bytes": 555746,
+      "sha256": "d22ad54a10193292ae0df7f9654326e2ef3fd288480ef472f32dd2ee70faadab"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000000.npz",
+      "bytes": 202423,
+      "sha256": "d8d9657edce2223d96a120336c62cb77aa9dd78880ab0423b9210c6f50b68aaf"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000001.npz",
+      "bytes": 146169,
+      "sha256": "02504fdcd7a932cc242e134164811ff8d5ceff1ad988faf89646c2659f14ec6d"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000002.npz",
+      "bytes": 231575,
+      "sha256": "04302658ca45caa243f5e5e266d70b12b6b5e49ae2943d7dc88c7fd253793e5f"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000003.npz",
+      "bytes": 143618,
+      "sha256": "8bbf17a78ee27b529dbb7273f030397b287e27b49a68d9d82348955a0e3cd1d9"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000004.npz",
+      "bytes": 187617,
+      "sha256": "1c49dc975558c93f96e9570596f4075be027e402c93bb59934b158769672ee81"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000005.npz",
+      "bytes": 220851,
+      "sha256": "abf494b9e00ff43055a7c4316b551aed2bcbed865f60b6025503376fd7cb78ad"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000006.npz",
+      "bytes": 126595,
+      "sha256": "a21c31e1f7671781f2ee5e8d91672f7c5f3d5900a1c91a1ec70abb9c00fba731"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000007.npz",
+      "bytes": 212899,
+      "sha256": "bd367040df2e026a0870785e56891d2ed671a12854c385d28f19e1d29737f2b1"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000008.npz",
+      "bytes": 208149,
+      "sha256": "ffcac68a40180dfced375dcebdffddc82b95231009a37ff5faace6b8a8be9b58"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000009.npz",
+      "bytes": 130598,
+      "sha256": "1537f258ea5b71169863029cf803a354289015831bc2b0dc1e8982571bc48614"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000010.npz",
+      "bytes": 230982,
+      "sha256": "589d2d5255a3c28c8450b37c919c49a83e19d0863a027a2d7e8bafe831043be8"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000011.npz",
+      "bytes": 136043,
+      "sha256": "c7bea5fe3bd16f60532e8c33145f11f74f33c0850c6cace6d4aa7c6e62975546"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000012.npz",
+      "bytes": 193318,
+      "sha256": "bd6ef5e14162b120a5a56c261ed8343693270c01e74c42a19b29bfcc46d2a144"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000013.npz",
+      "bytes": 190205,
+      "sha256": "ae3e7887a289c9a8bd5cb44b8c5d79e59b67297394095e70bf6ca2f50fdcf536"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000014.npz",
+      "bytes": 132497,
+      "sha256": "b1e0b4765852d3bddebf98fa7997f737d7ad3f4d37ecf9a1b36385a3cf76624b"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000015.npz",
+      "bytes": 149261,
+      "sha256": "3d88e05ac20f1cc685b9fc46ff198ab51f1d00703eabf936e8f857f0d92c0111"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000016.npz",
+      "bytes": 218543,
+      "sha256": "8457762458689890896a4394be63b2b8f751d050d3c0577f5ff27b255381fc8e"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000017.npz",
+      "bytes": 200000,
+      "sha256": "9bc146c92d4838b9ed815e885426c70a19427e6621a8c0d550520bad4453be58"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000018.npz",
+      "bytes": 128474,
+      "sha256": "e318adad92490a331cf2b28dbfd7915a6adff1dbd881bab9cce8e6cb9decba00"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000019.npz",
+      "bytes": 178525,
+      "sha256": "ccf96e9faf78aaa54d86cc07e275d513916313c8bd9b1bd9c7f9926b73bdd3b5"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000020.npz",
+      "bytes": 128749,
+      "sha256": "8158b93f8eaa4042f9afdaa57f34a531035c662727e363a2531ea00a3a6c64c2"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000021.npz",
+      "bytes": 184906,
+      "sha256": "4bcc92077a2d6caded6aebc52ee6570951d8da60f357dfcc5e3025369b31018a"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000022.npz",
+      "bytes": 109332,
+      "sha256": "680e257ba21dceb585d5b6e5f6e8682e46b311d90e55ebe5ae5b938f192e4288"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/episodes/episode_000023.npz",
+      "bytes": 183174,
+      "sha256": "9a1881d802097ec7b36b868267eb0c8a3af970dbdfa964940e09090a68e3596d"
+    },
+    {
+      "path": "datasets/dagger_v1_seed30000_beta050/manifest.json",
+      "bytes": 13468,
+      "sha256": "0a35a636751069cfaa5aa44ccd6b6cb7a4f0a95d1e125f1bba6ca5ae573c04ef"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episode_000_preview.gif",
+      "bytes": 608936,
+      "sha256": "1736c009e71b58a4c745754d8810823ce0b9fa42b5829217274d4ff73aaeec50"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000000.npz",
+      "bytes": 224157,
+      "sha256": "44c90f171d3dc913459aa1c6711dc07148e86d3472ca9424d2eb21d4bb1ecad4"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000001.npz",
+      "bytes": 230818,
+      "sha256": "543e590017a3295365f6c181ff7410d5c10ece2f9580d05f6038b9704d8772c3"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000002.npz",
+      "bytes": 233624,
+      "sha256": "ed4e07ccc00dce5aeeb5707eb3d596e03251bddaf3df016782184465142152bb"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000003.npz",
+      "bytes": 162569,
+      "sha256": "5b6032cda7fc0efb7c63f6767515fd103c01c95af50e2265e84e2b7cdc3968ee"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000004.npz",
+      "bytes": 200108,
+      "sha256": "34d1bd0e08834fdef9e58b6fbd2a21b2a6818cc2d9d49fc05e56444863a866b2"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000005.npz",
+      "bytes": 211990,
+      "sha256": "8dd4a1a4deb415936f2094b43439d832b6f858364735fb6620f9dbc49f56dea6"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000006.npz",
+      "bytes": 171161,
+      "sha256": "61bc86ea7fabd01f499bd8932e4ff159db17346f8b8718dce68e05cb89ec7393"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000007.npz",
+      "bytes": 213100,
+      "sha256": "c6660914fa165c30ee04dfc5ef1af0386035922421fa9a3dd44b1197651e6af4"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000008.npz",
+      "bytes": 239133,
+      "sha256": "d966ee400547b2da69e8de894f2fdc9cfd68bc241fbf0731fbe9600189526b7a"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000009.npz",
+      "bytes": 156375,
+      "sha256": "370c8dfe99f1ebfd2fa0d73f41f7d2984667c0f08a7f5455603fa59838511413"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000010.npz",
+      "bytes": 164761,
+      "sha256": "7f2d92c20282fd46a8f2867a579def55d30cf11105c214589b0ea9a25eab0b9c"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000011.npz",
+      "bytes": 189051,
+      "sha256": "a3a3931628a2be4830a5157d83bb1c43ca33d5fa3cf39bf74f7710d8e164e164"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000012.npz",
+      "bytes": 131137,
+      "sha256": "3131e6982195c1680102e36313dea994753415536578d54b06e8fbed2cd5b650"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000013.npz",
+      "bytes": 179586,
+      "sha256": "81fdacf4cf859e1e5cf4ffdaa3b80de05c386fc2db459b4822a590431cda1cd1"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000014.npz",
+      "bytes": 168961,
+      "sha256": "2d8eaaa553c14d619498e2d355f60ab8114be35da7dd663280c5bcd270a8cbce"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000015.npz",
+      "bytes": 227095,
+      "sha256": "13bd945557e6841823e50bb886d199bb6a8fe1ce7da5410f8899eb07f1058f23"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000016.npz",
+      "bytes": 188016,
+      "sha256": "aa6b67e8ff0a929e33ed1a1c9adf3a53857ebfead66773a929c8417a98d74552"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000017.npz",
+      "bytes": 214499,
+      "sha256": "d259d7a6bd0c889e62a355c2b39f08eba68f5bbbf5d0b42c4396519d8c6da593"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000018.npz",
+      "bytes": 233998,
+      "sha256": "6be6bdb3476ba88c978126a3ed690ad6cfe6f258589d6f54dd9cd790497977a3"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000019.npz",
+      "bytes": 182985,
+      "sha256": "e6264e0e2fa0f90c6d27860b29f74931d2a611154ca87f60a72340909a683f56"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000020.npz",
+      "bytes": 135522,
+      "sha256": "67154aed17535da89cf08fe92d75a6cd9985b1c4d4c7c369a9a3d258c2df5cc5"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000021.npz",
+      "bytes": 195429,
+      "sha256": "5b770b11520a7c2d4997bb1acf16380cdfbda30da9277260b1c40917d0086e2f"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000022.npz",
+      "bytes": 134072,
+      "sha256": "21776ea992331b3aa69c801d925687ccde3503f2fd9f9d4e018572352237fb70"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/episodes/episode_000023.npz",
+      "bytes": 188856,
+      "sha256": "90cacfc27ce6a42c31ee8ecd1acc62ffdbebbb043a0d16f9a4c69cba02028651"
+    },
+    {
+      "path": "datasets/dagger_v2_seed35000_beta020/manifest.json",
+      "bytes": 14816,
+      "sha256": "d2eaec76c800c42bbc03201729112fb7482c01d87e18a1922749b0d717f371bc"
+    },
+    {
+      "path": "docs/assets/dagger_v1_mixed_rollout.gif",
+      "bytes": 555746,
+      "sha256": "d22ad54a10193292ae0df7f9654326e2ef3fd288480ef472f32dd2ee70faadab"
+    },
+    {
+      "path": "docs/assets/dagger_v2_waypoint_corrections.gif",
+      "bytes": 608936,
+      "sha256": "1736c009e71b58a4c745754d8810823ce0b9fa42b5829217274d4ff73aaeec50"
+    },
+    {
+      "path": "docs/assets/dataset_overview.png",
+      "bytes": 119283,
+      "sha256": "e9ab6a71ad8abcb3a978c0421632142915336c99f6c12cbb6988ea254490385d"
+    },
+    {
+      "path": "docs/assets/expert_grasp_mode_comparison.png",
+      "bytes": 143951,
+      "sha256": "dddfe73ca142da43587932a2591421907685b182ef8267baf0b5edd58598d72f"
+    },
+    {
+      "path": "docs/assets/expert_pick_place.gif",
+      "bytes": 411520,
+      "sha256": "4656cd90114cb31c261925d5ce4f94bf93eed58a47beacf16d88c7e8049582ec"
+    },
+    {
+      "path": "docs/assets/ppo_learning_curve.png",
+      "bytes": 283265,
+      "sha256": "a0494694c257924dbbcbea9ec557724ab086c4c0197827c8072921cf24a0184a"
+    },
+    {
+      "path": "docs/assets/ppo_multiseed_summary.png",
+      "bytes": 228895,
+      "sha256": "1caa35f0a8a4155594a88efe71dc499271332eed1ee524d4ff4a7b9ca910cfe2"
+    },
+    {
+      "path": "docs/assets/ros2_arm_depth.png",
+      "bytes": 2001,
+      "sha256": "bc4b3dd4fc48a4769d7f829b73efc8b7a659b52991b8553fb03df0435b2d493a"
+    },
+    {
+      "path": "docs/assets/ros2_arm_rgb.png",
+      "bytes": 7389,
+      "sha256": "e01a79d84ac4f1ab7c6796413621f1e939b5d57725f37a518f8afd206a075d04"
+    },
+    {
+      "path": "docs/assets/slam_mujoco_world.png",
+      "bytes": 124169,
+      "sha256": "ca4bdc0fdd287df02cb7cfe9ce1c48b1e20198d364e9d140257b251b8e8336c4"
+    },
+    {
+      "path": "docs/assets/slam_occupancy_map.png",
+      "bytes": 1113,
+      "sha256": "f028acc1a524fdede638030958d3dfce9510dc9a69b634c736ba5682fa495bc1"
+    },
+    {
+      "path": "docs/assets/slam_trajectory_comparison.png",
+      "bytes": 12975,
+      "sha256": "e217504678b51abe73cbfaf8aeb5bc018848ed4314db84304862bbcc92467a13"
+    },
+    {
+      "path": "docs/assets/soarm_mujoco_scene.png",
+      "bytes": 3112,
+      "sha256": "15c3b54c23f3d8a701b075615fd3b3f7fc8546637155dd951ba2296f9af06bc5"
+    },
+    {
+      "path": "docs/assets/vla_baseline_offline_diagnostics.png",
+      "bytes": 211176,
+      "sha256": "5403a984f6530202b61fea85d8c8f7170eacaf60c8d64981434893255a29673d"
+    },
+    {
+      "path": "docs/assets/vla_domain_randomized_attention.png",
+      "bytes": 12816,
+      "sha256": "c2a939e690ff7dd79a7900e0836f0ca8df80ed5609e69db95dd165e1755c308f"
+    },
+    {
+      "path": "docs/assets/vla_domain_randomized_failure.gif",
+      "bytes": 5258907,
+      "sha256": "99b8765cdf55988b9b17c1d86af5b277a111e8681757c4a872eb5663fb58aaec"
+    },
+    {
+      "path": "docs/assets/vla_domain_randomized_success.gif",
+      "bytes": 4243182,
+      "sha256": "de2eae821d3c09b3c45541bb8c72cef682f81a15aca8db513f12af185f623347"
+    },
+    {
+      "path": "docs/assets/vla_final_comparison.png",
+      "bytes": 176852,
+      "sha256": "ce55e18699bc42c9323ff9c6a00472dba2c142f6ccf76fe4c756e1e292e3a8ca"
+    },
+    {
+      "path": "docs/assets/vla_final_v2_failure.gif",
+      "bytes": 5672498,
+      "sha256": "c0bfdd3ec07889b251142c4b8b3162de99583f257bd68b83aa3665fefb6ea1b6"
+    },
+    {
+      "path": "docs/assets/vla_final_v2_success.gif",
+      "bytes": 1639807,
+      "sha256": "6dbbc5fce149cad41ea4a3378b10884e4eb7f3e44a8d269c3fbfe4fa969e5950"
+    },
+    {
+      "path": "docs/assets/vla_grounded_failure.gif",
+      "bytes": 4809340,
+      "sha256": "62c8722bc51e774b70cba85c0a4217270137b36fe09ced5d31a989b2d7b4580b"
+    },
+    {
+      "path": "docs/assets/vla_grounded_failure_attention.png",
+      "bytes": 14569,
+      "sha256": "3f8efba59077185518c32ce42dfe0525a323f868e6bf7d2df59d8d6cc37deb72"
+    },
+    {
+      "path": "docs/assets/vla_grounding_calibration.png",
+      "bytes": 139943,
+      "sha256": "0ff797fe2e0634325c62a415646c3d34ff22f9e26d4cb12cfd3f74dc5bd276bc"
+    },
+    {
+      "path": "docs/assets/vla_highres_training_curve.png",
+      "bytes": 93565,
+      "sha256": "30bb9d89d17f24f047cc685bdfa4956d6a015aba60feaaa68a8c573a7c792891"
+    },
+    {
+      "path": "results/claim_ledger.md",
+      "bytes": 7182,
+      "sha256": "1efbec71017e7308f0743b475795c56376d14a49057d8029e6940eb61352eb34"
+    },
+    {
+      "path": "results/experiment_registry.md",
+      "bytes": 6149,
+      "sha256": "ce773694d5cc88a392f4e52818ce3f94f2da79520288752c5d672951f71c5138"
+    },
+    {
+      "path": "results/expert_benchmark/contact/episodes.jsonl",
+      "bytes": 24637,
+      "sha256": "bb595cc976eadfa03a2955881cc934ac520e853f6fdb486f0b615cd2959ebeb3"
+    },
+    {
+      "path": "results/expert_benchmark/contact/summary.json",
+      "bytes": 1779,
+      "sha256": "8da80e80ede891108e330866a83ab40d5cf9fb02f864f0cf1aa9e434af4e173e"
+    },
+    {
+      "path": "results/expert_benchmark/contact_assisted/episodes.jsonl",
+      "bytes": 25082,
+      "sha256": "952f293ec6cea56b849a09c350078449e14c318e48cc5382858496fcbdb6ccd6"
+    },
+    {
+      "path": "results/expert_benchmark/contact_assisted/summary.json",
+      "bytes": 1643,
+      "sha256": "9ba0fefc2411d87e8e227c599f34af210e7cf8fae89cd1f12eb6443672e8c9e3"
+    },
+    {
+      "path": "results/ppo_reach/aggregate_summary.json",
+      "bytes": 2411,
+      "sha256": "623784adac232729a8aa70020effe1138d9f3cc9b1fc4e0ab3c54ccbabe8afb5"
+    },
+    {
+      "path": "results/ppo_reach/seed1/metrics.jsonl",
+      "bytes": 20398,
+      "sha256": "3a7a7332ce8f8d80273409935a95dc4880113ed076afb49fd7c2d1fac5e86a92"
+    },
+    {
+      "path": "results/ppo_reach/seed1/summary.json",
+      "bytes": 1222,
+      "sha256": "e263c52096844ddd507b7fee2962e2da6d95c2e8a4d6249391ec10aec18055c2"
+    },
+    {
+      "path": "results/ppo_reach/seed2/metrics.jsonl",
+      "bytes": 21700,
+      "sha256": "9e710a726f0b69869565c7dd44293e585bc04586e650defbe912b97d0b0d7b36"
+    },
+    {
+      "path": "results/ppo_reach/seed2/summary.json",
+      "bytes": 1403,
+      "sha256": "4dcd24c5083584c18b5e495134120501855d246108d8cbfa36e3244909fbcc14"
+    },
+    {
+      "path": "results/ppo_reach/seed3/metrics.jsonl",
+      "bytes": 21639,
+      "sha256": "4f2862187b1ac5ccf2090a0080edf6d6204504c32513d6b4baa5ddf53ad80e60"
+    },
+    {
+      "path": "results/ppo_reach/seed3/summary.json",
+      "bytes": 1401,
+      "sha256": "d0c296893c4fd6991492d25f9205816658620bf5449685c0a1751bf939e1d1e1"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 1595,
+      "sha256": "f24da7154484c9fba8cc639b920d752a84396acaa617d76a19a8498101be07b1"
+    },
+    {
+      "path": "results/ros_arm/summary.json",
+      "bytes": 1522,
+      "sha256": "cbc9cdec9127f4ef13fbb3de5d22c5bc653a412a030162b4c8f434d5bfa6abc1"
+    },
+    {
+      "path": "results/ros_slam/slam_capture.npz",
+      "bytes": 26225,
+      "sha256": "b521d876e9a68331f5f39402790db9222010daf9489243cb280b41bca8878a6a"
+    },
+    {
+      "path": "results/ros_slam/summary.json",
+      "bytes": 261,
+      "sha256": "d4eecfc96838300e7b4e2f0e9c91c767c74b0cd0bf5e8176810053944958fb57"
+    },
+    {
+      "path": "results/vla_final_v1/episodes.jsonl",
+      "bytes": 54607,
+      "sha256": "b3a971493b024972f1ee73c35da53afc3046669e84f75ed7bba7f492ecc8bf20"
+    },
+    {
+      "path": "results/vla_final_v1/summary.json",
+      "bytes": 5793,
+      "sha256": "ad6ee6b214a80e8254d748ce081a0c314420a392a8816a31896668fa71e9a189"
+    },
+    {
+      "path": "results/vla_final_v2/episodes.jsonl",
+      "bytes": 55125,
+      "sha256": "f7939b67d340015f3f28fb62f8c58be59318b5bc9b79d3c8aecbb9cbf182947b"
+    },
+    {
+      "path": "results/vla_final_v2/summary.json",
+      "bytes": 6562,
+      "sha256": "f3b7e0e9861c041e5fc401c808f71b2e3ded285a73fa8d93902d91721f3b8cbb"
+    },
+    {
+      "path": "results/vla_robustness_dr/episodes.jsonl",
+      "bytes": 27939,
+      "sha256": "dce23339498310d42c903519553a5752f6bb95d5829a40ae3a60de278921d2d6"
+    },
+    {
+      "path": "results/vla_robustness_dr/summary.json",
+      "bytes": 6603,
+      "sha256": "e564c2abf85db6d07c461494a99b4d71b0ec266f3333333ba5ee0c4a59bc0f24"
+    },
+    {
+      "path": "results/vla_stage6/calibration_summary.json",
+      "bytes": 6095,
+      "sha256": "644ba4702ffb3653e463cf59d999cf3dddb07e84b97a31eeba69c3ebc756be94"
+    },
+    {
+      "path": "results/vla_stage6/metrics.jsonl",
+      "bytes": 13169,
+      "sha256": "3b3c4ce6c164299fb28c79b728b21dc7e6b99aef240b84e768ea2db0eff04b0c"
+    },
+    {
+      "path": "results/vla_stage6/training_summary.json",
+      "bytes": 7154,
+      "sha256": "bae6e126bc7194e79dac3db3f87187c25eb16b695112017074b6fbaf65e8653f"
+    }
+  ]
+}

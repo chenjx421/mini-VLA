@@ -1,0 +1,10 @@
+{
+  "map_width": 123,
+  "map_height": 118,
+  "resolution": 0.05000000074505806,
+  "truth_samples": 1147,
+  "odometry_samples": 1147,
+  "slam_samples": 79,
+  "final_odometry_position_error": 1.5877816677093506,
+  "final_slam_position_error": 0.8447802066802979
+}

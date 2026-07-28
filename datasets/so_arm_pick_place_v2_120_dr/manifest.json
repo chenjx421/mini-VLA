@@ -1,0 +1,1239 @@
+{
+  "schema_version": 1,
+  "episodes": 120,
+  "attempted": 121,
+  "seed": 11000,
+  "balanced_tasks": true,
+  "domain_randomization": true,
+  "environment": {
+    "observation_mode": "multimodal",
+    "task_level": "pick_place",
+    "grasp_mode": "contact_assisted",
+    "image_size": 64,
+    "max_episode_steps": 300,
+    "physics_timestep": 0.002,
+    "control_substeps": 10,
+    "cartesian_action_scale": 0.018,
+    "wrist_action_scale": 0.08,
+    "ik_damping": 0.04,
+    "success_radius": 0.045,
+    "table_height": 0.0,
+    "cube_half_size": 0.015,
+    "pregrasp_jaw": 0.3,
+    "open_jaw": 0.65,
+    "closed_jaw": -0.174,
+    "render_camera": "front",
+    "domain_randomization": true
+  },
+  "mean_length": 158.1,
+  "task_counts": {
+    "red->left": 20,
+    "red->right": 20,
+    "green->left": 20,
+    "green->right": 20,
+    "blue->left": 20,
+    "blue->right": 20
+  },
+  "records": [
+    {
+      "episode": 0,
+      "seed": 11000,
+      "path": "episodes/episode_000000.npz",
+      "length": 139,
+      "instruction": "move the red cube into the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 1,
+      "seed": 11001,
+      "path": "episodes/episode_000001.npz",
+      "length": 168,
+      "instruction": "grasp the red block and put it into the right bin",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 2,
+      "seed": 11002,
+      "path": "episodes/episode_000002.npz",
+      "length": 169,
+      "instruction": "move the green cube into the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 3,
+      "seed": 11003,
+      "path": "episodes/episode_000003.npz",
+      "length": 157,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 4,
+      "seed": 11004,
+      "path": "episodes/episode_000004.npz",
+      "length": 175,
+      "instruction": "move the blue cube into the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 5,
+      "seed": 11005,
+      "path": "episodes/episode_000005.npz",
+      "length": 111,
+      "instruction": "pick the blue cube and place it in the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 6,
+      "seed": 11006,
+      "path": "episodes/episode_000006.npz",
+      "length": 240,
+      "instruction": "move the red cube into the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 7,
+      "seed": 11007,
+      "path": "episodes/episode_000007.npz",
+      "length": 118,
+      "instruction": "pick the red cube and place it in the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 8,
+      "seed": 11008,
+      "path": "episodes/episode_000008.npz",
+      "length": 281,
+      "instruction": "grasp the green block and put it into the left bin",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 9,
+      "seed": 11009,
+      "path": "episodes/episode_000009.npz",
+      "length": 114,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 10,
+      "seed": 11010,
+      "path": "episodes/episode_000010.npz",
+      "length": 233,
+      "instruction": "move the blue cube into the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 11,
+      "seed": 11011,
+      "path": "episodes/episode_000011.npz",
+      "length": 187,
+      "instruction": "move the blue cube into the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 12,
+      "seed": 11012,
+      "path": "episodes/episode_000012.npz",
+      "length": 103,
+      "instruction": "move the red cube into the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 13,
+      "seed": 11013,
+      "path": "episodes/episode_000013.npz",
+      "length": 162,
+      "instruction": "pick the red cube and place it in the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 14,
+      "seed": 11014,
+      "path": "episodes/episode_000014.npz",
+      "length": 133,
+      "instruction": "pick the green cube and place it in the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 15,
+      "seed": 11015,
+      "path": "episodes/episode_000015.npz",
+      "length": 150,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 16,
+      "seed": 11016,
+      "path": "episodes/episode_000016.npz",
+      "length": 155,
+      "instruction": "pick the blue cube and place it in the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 17,
+      "seed": 11017,
+      "path": "episodes/episode_000017.npz",
+      "length": 241,
+      "instruction": "grasp the blue block and put it into the right bin",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 18,
+      "seed": 11018,
+      "path": "episodes/episode_000018.npz",
+      "length": 170,
+      "instruction": "pick the red cube and place it in the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 19,
+      "seed": 11019,
+      "path": "episodes/episode_000019.npz",
+      "length": 186,
+      "instruction": "grasp the red block and put it into the right bin",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 20,
+      "seed": 11020,
+      "path": "episodes/episode_000020.npz",
+      "length": 115,
+      "instruction": "pick the green cube and place it in the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 21,
+      "seed": 11021,
+      "path": "episodes/episode_000021.npz",
+      "length": 142,
+      "instruction": "grasp the green block and put it into the right bin",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 22,
+      "seed": 11023,
+      "path": "episodes/episode_000022.npz",
+      "length": 115,
+      "instruction": "grasp the blue block and put it into the left bin",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 23,
+      "seed": 11024,
+      "path": "episodes/episode_000023.npz",
+      "length": 131,
+      "instruction": "pick the blue cube and place it in the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 24,
+      "seed": 11025,
+      "path": "episodes/episode_000024.npz",
+      "length": 126,
+      "instruction": "pick the red cube and place it in the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 25,
+      "seed": 11026,
+      "path": "episodes/episode_000025.npz",
+      "length": 149,
+      "instruction": "pick the red cube and place it in the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 26,
+      "seed": 11027,
+      "path": "episodes/episode_000026.npz",
+      "length": 171,
+      "instruction": "pick the green cube and place it in the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 27,
+      "seed": 11028,
+      "path": "episodes/episode_000027.npz",
+      "length": 119,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 28,
+      "seed": 11029,
+      "path": "episodes/episode_000028.npz",
+      "length": 125,
+      "instruction": "grasp the blue block and put it into the left bin",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 29,
+      "seed": 11030,
+      "path": "episodes/episode_000029.npz",
+      "length": 162,
+      "instruction": "move the blue cube into the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 30,
+      "seed": 11031,
+      "path": "episodes/episode_000030.npz",
+      "length": 181,
+      "instruction": "move the red cube into the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 31,
+      "seed": 11032,
+      "path": "episodes/episode_000031.npz",
+      "length": 122,
+      "instruction": "grasp the red block and put it into the right bin",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 32,
+      "seed": 11033,
+      "path": "episodes/episode_000032.npz",
+      "length": 197,
+      "instruction": "pick the green cube and place it in the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 33,
+      "seed": 11034,
+      "path": "episodes/episode_000033.npz",
+      "length": 231,
+      "instruction": "pick the green cube and place it in the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 34,
+      "seed": 11035,
+      "path": "episodes/episode_000034.npz",
+      "length": 173,
+      "instruction": "grasp the blue block and put it into the left bin",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 35,
+      "seed": 11036,
+      "path": "episodes/episode_000035.npz",
+      "length": 141,
+      "instruction": "pick the blue cube and place it in the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 36,
+      "seed": 11037,
+      "path": "episodes/episode_000036.npz",
+      "length": 136,
+      "instruction": "grasp the red block and put it into the left bin",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 37,
+      "seed": 11038,
+      "path": "episodes/episode_000037.npz",
+      "length": 148,
+      "instruction": "move the red cube into the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 38,
+      "seed": 11039,
+      "path": "episodes/episode_000038.npz",
+      "length": 260,
+      "instruction": "move the green cube into the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 39,
+      "seed": 11040,
+      "path": "episodes/episode_000039.npz",
+      "length": 221,
+      "instruction": "grasp the green block and put it into the right bin",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 40,
+      "seed": 11041,
+      "path": "episodes/episode_000040.npz",
+      "length": 147,
+      "instruction": "pick the blue cube and place it in the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 41,
+      "seed": 11042,
+      "path": "episodes/episode_000041.npz",
+      "length": 125,
+      "instruction": "move the blue cube into the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 42,
+      "seed": 11043,
+      "path": "episodes/episode_000042.npz",
+      "length": 131,
+      "instruction": "pick the red cube and place it in the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 43,
+      "seed": 11044,
+      "path": "episodes/episode_000043.npz",
+      "length": 151,
+      "instruction": "move the red cube into the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 44,
+      "seed": 11045,
+      "path": "episodes/episode_000044.npz",
+      "length": 142,
+      "instruction": "grasp the green block and put it into the left bin",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 45,
+      "seed": 11046,
+      "path": "episodes/episode_000045.npz",
+      "length": 111,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 46,
+      "seed": 11047,
+      "path": "episodes/episode_000046.npz",
+      "length": 191,
+      "instruction": "pick the blue cube and place it in the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 47,
+      "seed": 11048,
+      "path": "episodes/episode_000047.npz",
+      "length": 210,
+      "instruction": "move the blue cube into the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 48,
+      "seed": 11049,
+      "path": "episodes/episode_000048.npz",
+      "length": 137,
+      "instruction": "grasp the red block and put it into the left bin",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 49,
+      "seed": 11050,
+      "path": "episodes/episode_000049.npz",
+      "length": 140,
+      "instruction": "move the red cube into the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 50,
+      "seed": 11051,
+      "path": "episodes/episode_000050.npz",
+      "length": 299,
+      "instruction": "grasp the green block and put it into the left bin",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 51,
+      "seed": 11052,
+      "path": "episodes/episode_000051.npz",
+      "length": 159,
+      "instruction": "grasp the green block and put it into the right bin",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 52,
+      "seed": 11053,
+      "path": "episodes/episode_000052.npz",
+      "length": 153,
+      "instruction": "move the blue cube into the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 53,
+      "seed": 11054,
+      "path": "episodes/episode_000053.npz",
+      "length": 116,
+      "instruction": "pick the blue cube and place it in the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 54,
+      "seed": 11055,
+      "path": "episodes/episode_000054.npz",
+      "length": 150,
+      "instruction": "move the red cube into the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 55,
+      "seed": 11056,
+      "path": "episodes/episode_000055.npz",
+      "length": 153,
+      "instruction": "move the red cube into the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 56,
+      "seed": 11057,
+      "path": "episodes/episode_000056.npz",
+      "length": 125,
+      "instruction": "grasp the green block and put it into the left bin",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 57,
+      "seed": 11058,
+      "path": "episodes/episode_000057.npz",
+      "length": 146,
+      "instruction": "pick the green cube and place it in the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 58,
+      "seed": 11059,
+      "path": "episodes/episode_000058.npz",
+      "length": 178,
+      "instruction": "pick the blue cube and place it in the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 59,
+      "seed": 11060,
+      "path": "episodes/episode_000059.npz",
+      "length": 130,
+      "instruction": "grasp the blue block and put it into the right bin",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 60,
+      "seed": 11061,
+      "path": "episodes/episode_000060.npz",
+      "length": 133,
+      "instruction": "pick the red cube and place it in the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 61,
+      "seed": 11062,
+      "path": "episodes/episode_000061.npz",
+      "length": 154,
+      "instruction": "pick the red cube and place it in the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 62,
+      "seed": 11063,
+      "path": "episodes/episode_000062.npz",
+      "length": 135,
+      "instruction": "pick the green cube and place it in the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 63,
+      "seed": 11064,
+      "path": "episodes/episode_000063.npz",
+      "length": 153,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 64,
+      "seed": 11065,
+      "path": "episodes/episode_000064.npz",
+      "length": 134,
+      "instruction": "pick the blue cube and place it in the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 65,
+      "seed": 11066,
+      "path": "episodes/episode_000065.npz",
+      "length": 188,
+      "instruction": "pick the blue cube and place it in the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 66,
+      "seed": 11067,
+      "path": "episodes/episode_000066.npz",
+      "length": 128,
+      "instruction": "pick the red cube and place it in the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 67,
+      "seed": 11068,
+      "path": "episodes/episode_000067.npz",
+      "length": 149,
+      "instruction": "grasp the red block and put it into the right bin",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 68,
+      "seed": 11069,
+      "path": "episodes/episode_000068.npz",
+      "length": 115,
+      "instruction": "grasp the green block and put it into the left bin",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 69,
+      "seed": 11070,
+      "path": "episodes/episode_000069.npz",
+      "length": 170,
+      "instruction": "grasp the green block and put it into the right bin",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 70,
+      "seed": 11071,
+      "path": "episodes/episode_000070.npz",
+      "length": 118,
+      "instruction": "grasp the blue block and put it into the left bin",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 71,
+      "seed": 11072,
+      "path": "episodes/episode_000071.npz",
+      "length": 126,
+      "instruction": "grasp the blue block and put it into the right bin",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 72,
+      "seed": 11073,
+      "path": "episodes/episode_000072.npz",
+      "length": 139,
+      "instruction": "grasp the red block and put it into the left bin",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 73,
+      "seed": 11074,
+      "path": "episodes/episode_000073.npz",
+      "length": 173,
+      "instruction": "pick the red cube and place it in the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 74,
+      "seed": 11075,
+      "path": "episodes/episode_000074.npz",
+      "length": 117,
+      "instruction": "pick the green cube and place it in the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 75,
+      "seed": 11076,
+      "path": "episodes/episode_000075.npz",
+      "length": 152,
+      "instruction": "grasp the green block and put it into the right bin",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 76,
+      "seed": 11077,
+      "path": "episodes/episode_000076.npz",
+      "length": 171,
+      "instruction": "pick the blue cube and place it in the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 77,
+      "seed": 11078,
+      "path": "episodes/episode_000077.npz",
+      "length": 206,
+      "instruction": "move the blue cube into the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 78,
+      "seed": 11079,
+      "path": "episodes/episode_000078.npz",
+      "length": 273,
+      "instruction": "move the red cube into the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 79,
+      "seed": 11080,
+      "path": "episodes/episode_000079.npz",
+      "length": 134,
+      "instruction": "grasp the red block and put it into the right bin",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 80,
+      "seed": 11081,
+      "path": "episodes/episode_000080.npz",
+      "length": 106,
+      "instruction": "grasp the green block and put it into the left bin",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 81,
+      "seed": 11082,
+      "path": "episodes/episode_000081.npz",
+      "length": 152,
+      "instruction": "pick the green cube and place it in the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 82,
+      "seed": 11083,
+      "path": "episodes/episode_000082.npz",
+      "length": 122,
+      "instruction": "move the blue cube into the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 83,
+      "seed": 11084,
+      "path": "episodes/episode_000083.npz",
+      "length": 265,
+      "instruction": "move the blue cube into the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 84,
+      "seed": 11085,
+      "path": "episodes/episode_000084.npz",
+      "length": 154,
+      "instruction": "grasp the red block and put it into the left bin",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 85,
+      "seed": 11086,
+      "path": "episodes/episode_000085.npz",
+      "length": 126,
+      "instruction": "pick the red cube and place it in the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 86,
+      "seed": 11087,
+      "path": "episodes/episode_000086.npz",
+      "length": 125,
+      "instruction": "move the green cube into the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 87,
+      "seed": 11088,
+      "path": "episodes/episode_000087.npz",
+      "length": 143,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 88,
+      "seed": 11089,
+      "path": "episodes/episode_000088.npz",
+      "length": 280,
+      "instruction": "grasp the blue block and put it into the left bin",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 89,
+      "seed": 11090,
+      "path": "episodes/episode_000089.npz",
+      "length": 113,
+      "instruction": "grasp the blue block and put it into the right bin",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 90,
+      "seed": 11091,
+      "path": "episodes/episode_000090.npz",
+      "length": 115,
+      "instruction": "pick the red cube and place it in the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 91,
+      "seed": 11092,
+      "path": "episodes/episode_000091.npz",
+      "length": 199,
+      "instruction": "grasp the red block and put it into the right bin",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 92,
+      "seed": 11093,
+      "path": "episodes/episode_000092.npz",
+      "length": 182,
+      "instruction": "grasp the green block and put it into the left bin",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 93,
+      "seed": 11094,
+      "path": "episodes/episode_000093.npz",
+      "length": 130,
+      "instruction": "grasp the green block and put it into the right bin",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 94,
+      "seed": 11095,
+      "path": "episodes/episode_000094.npz",
+      "length": 127,
+      "instruction": "move the blue cube into the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 95,
+      "seed": 11096,
+      "path": "episodes/episode_000095.npz",
+      "length": 134,
+      "instruction": "pick the blue cube and place it in the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 96,
+      "seed": 11097,
+      "path": "episodes/episode_000096.npz",
+      "length": 142,
+      "instruction": "grasp the red block and put it into the left bin",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 97,
+      "seed": 11098,
+      "path": "episodes/episode_000097.npz",
+      "length": 189,
+      "instruction": "pick the red cube and place it in the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 98,
+      "seed": 11099,
+      "path": "episodes/episode_000098.npz",
+      "length": 136,
+      "instruction": "grasp the green block and put it into the left bin",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 99,
+      "seed": 11100,
+      "path": "episodes/episode_000099.npz",
+      "length": 178,
+      "instruction": "pick the green cube and place it in the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 100,
+      "seed": 11101,
+      "path": "episodes/episode_000100.npz",
+      "length": 142,
+      "instruction": "pick the blue cube and place it in the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 101,
+      "seed": 11102,
+      "path": "episodes/episode_000101.npz",
+      "length": 124,
+      "instruction": "pick the blue cube and place it in the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 102,
+      "seed": 11103,
+      "path": "episodes/episode_000102.npz",
+      "length": 112,
+      "instruction": "move the red cube into the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 103,
+      "seed": 11104,
+      "path": "episodes/episode_000103.npz",
+      "length": 200,
+      "instruction": "move the red cube into the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 104,
+      "seed": 11105,
+      "path": "episodes/episode_000104.npz",
+      "length": 144,
+      "instruction": "move the green cube into the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 105,
+      "seed": 11106,
+      "path": "episodes/episode_000105.npz",
+      "length": 218,
+      "instruction": "grasp the green block and put it into the right bin",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 106,
+      "seed": 11107,
+      "path": "episodes/episode_000106.npz",
+      "length": 138,
+      "instruction": "move the blue cube into the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 107,
+      "seed": 11108,
+      "path": "episodes/episode_000107.npz",
+      "length": 225,
+      "instruction": "move the blue cube into the right tray",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 108,
+      "seed": 11109,
+      "path": "episodes/episode_000108.npz",
+      "length": 226,
+      "instruction": "grasp the red block and put it into the left bin",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 109,
+      "seed": 11110,
+      "path": "episodes/episode_000109.npz",
+      "length": 121,
+      "instruction": "move the red cube into the right tray",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 110,
+      "seed": 11111,
+      "path": "episodes/episode_000110.npz",
+      "length": 119,
+      "instruction": "move the green cube into the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 111,
+      "seed": 11112,
+      "path": "episodes/episode_000111.npz",
+      "length": 155,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 112,
+      "seed": 11113,
+      "path": "episodes/episode_000112.npz",
+      "length": 129,
+      "instruction": "move the blue cube into the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 113,
+      "seed": 11114,
+      "path": "episodes/episode_000113.npz",
+      "length": 138,
+      "instruction": "grasp the blue block and put it into the right bin",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 114,
+      "seed": 11115,
+      "path": "episodes/episode_000114.npz",
+      "length": 211,
+      "instruction": "pick the red cube and place it in the left tray",
+      "target_color": "red",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 115,
+      "seed": 11116,
+      "path": "episodes/episode_000115.npz",
+      "length": 111,
+      "instruction": "grasp the red block and put it into the right bin",
+      "target_color": "red",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 116,
+      "seed": 11117,
+      "path": "episodes/episode_000116.npz",
+      "length": 198,
+      "instruction": "move the green cube into the left tray",
+      "target_color": "green",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 117,
+      "seed": 11118,
+      "path": "episodes/episode_000117.npz",
+      "length": 116,
+      "instruction": "move the green cube into the right tray",
+      "target_color": "green",
+      "goal_side": "right",
+      "success": true
+    },
+    {
+      "episode": 118,
+      "seed": 11119,
+      "path": "episodes/episode_000118.npz",
+      "length": 160,
+      "instruction": "pick the blue cube and place it in the left tray",
+      "target_color": "blue",
+      "goal_side": "left",
+      "success": true
+    },
+    {
+      "episode": 119,
+      "seed": 11120,
+      "path": "episodes/episode_000119.npz",
+      "length": 148,
+      "instruction": "grasp the blue block and put it into the right bin",
+      "target_color": "blue",
+      "goal_side": "right",
+      "success": true
+    }
+  ]
+}

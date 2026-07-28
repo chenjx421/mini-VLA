@@ -1,0 +1,48 @@
+{
+  "seed": 1,
+  "global_step": 100352,
+  "best_eval_success_rate": 0.7,
+  "final_evaluation": {
+    "success_rate": 0.75,
+    "mean_return": 4.057796730837717,
+    "mean_length": 61.85,
+    "episodes": 20.0
+  },
+  "elapsed_seconds": 156.17620849999366,
+  "environment": {
+    "observation_mode": "state",
+    "task_level": "reach",
+    "grasp_mode": "contact_assisted",
+    "image_size": 64,
+    "max_episode_steps": 100,
+    "physics_timestep": 0.002,
+    "control_substeps": 10,
+    "cartesian_action_scale": 0.018,
+    "wrist_action_scale": 0.08,
+    "ik_damping": 0.04,
+    "success_radius": 0.045,
+    "table_height": 0.0,
+    "cube_half_size": 0.015,
+    "pregrasp_jaw": 0.3,
+    "open_jaw": 0.65,
+    "closed_jaw": -0.174,
+    "render_camera": "front",
+    "domain_randomization": false
+  },
+  "ppo": {
+    "total_steps": 100000,
+    "num_envs": 8,
+    "rollout_steps": 256,
+    "update_epochs": 8,
+    "minibatch_size": 256,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_ratio": 0.2,
+    "value_clip_ratio": 0.2,
+    "value_coefficient": 0.5,
+    "entropy_coefficient": 0.005,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.03
+  }
+}

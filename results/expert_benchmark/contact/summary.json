@@ -1,0 +1,74 @@
+{
+  "episodes": 100,
+  "successes": 38,
+  "success_rate": 0.38,
+  "success_wilson_95": [
+    0.29097599252478734,
+    0.47790244704488916
+  ],
+  "mean_return": 7.781221596030656,
+  "mean_length": 260.98,
+  "failure_phase_histogram": {
+    "approach": 9,
+    "close_gripper": 8,
+    "descend_grasp": 16,
+    "descend_release": 1,
+    "lift": 17,
+    "transport": 11
+  },
+  "task_success": {
+    "red->left": {
+      "episodes": 17,
+      "success_rate": 0.29411764705882354
+    },
+    "red->right": {
+      "episodes": 17,
+      "success_rate": 0.4117647058823529
+    },
+    "green->left": {
+      "episodes": 17,
+      "success_rate": 0.4117647058823529
+    },
+    "green->right": {
+      "episodes": 17,
+      "success_rate": 0.35294117647058826
+    },
+    "blue->left": {
+      "episodes": 16,
+      "success_rate": 0.4375
+    },
+    "blue->right": {
+      "episodes": 16,
+      "success_rate": 0.375
+    }
+  },
+  "elapsed_seconds": 69.83042480000222,
+  "benchmark": {
+    "episodes": 100,
+    "seed": 10000,
+    "grasp_mode": "contact",
+    "domain_randomization": false,
+    "max_episode_steps": 300
+  },
+  "environment": {
+    "observation_mode": "state",
+    "task_level": "pick_place",
+    "grasp_mode": "contact",
+    "image_size": 64,
+    "max_episode_steps": 300,
+    "physics_timestep": 0.002,
+    "control_substeps": 10,
+    "cartesian_action_scale": 0.018,
+    "wrist_action_scale": 0.08,
+    "ik_damping": 0.04,
+    "success_radius": 0.045,
+    "table_height": 0.0,
+    "cube_half_size": 0.015,
+    "pregrasp_jaw": 0.3,
+    "open_jaw": 0.65,
+    "closed_jaw": -0.174,
+    "render_camera": "front",
+    "domain_randomization": false,
+    "include_end_effector_position_in_proprio": false
+  }
+}
