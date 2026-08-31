@@ -351,6 +351,7 @@ bash scripts/run_ros_arm_probe_wsl.sh outputs/ros_arm_probe
 | [06 实验方法](docs/learning/06_experiment_method.md) | 多 seed、置信区间、消融、失败分类、claim ledger |
 | [07 简历与答辩](docs/learning/07_resume_interview.md) | 简历写法、30 秒介绍、白板题和不能写的结论 |
 | [08 四天动手工作簿](docs/learning/08_hands_on_workbook.md) | 逐日命令、代码入口、预测记录、亲手改动和模拟面试 |
+| [09 Linux 与 Docker](docs/learning/09_linux_docker_interview.md) | 三天冲刺：命令、文件、权限、进程、服务、日志、网络、容器与综合排障 |
 | [最终简历条目](docs/resume/README.md) | 四条项目经历、30 秒介绍、数字证据和禁止夸大项 |
 
 MuJoCo 两天实操入口：[`mujoco_course/README.md`](mujoco_course/README.md)，第一段可运行代码：
