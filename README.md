@@ -353,6 +353,9 @@ bash scripts/run_ros_arm_probe_wsl.sh outputs/ros_arm_probe
 | [08 四天动手工作簿](docs/learning/08_hands_on_workbook.md) | 逐日命令、代码入口、预测记录、亲手改动和模拟面试 |
 | [最终简历条目](docs/resume/README.md) | 四条项目经历、30 秒介绍、数字证据和禁止夸大项 |
 
+MuJoCo 两天实操入口：[`mujoco_course/README.md`](mujoco_course/README.md)，第一段可运行代码：
+[`mujoco_course/lesson00_smoke.py`](mujoco_course/lesson00_smoke.py)。
+
 GitHub 项目调研与设计取舍见
 [GitHub Mini-VLA Design Audit](docs/research/github_vla_audit.md)。
 
